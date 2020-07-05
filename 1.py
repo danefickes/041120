@@ -1,0 +1,23 @@
+list = [4, 2, 2.6, True]
+list.sort()
+print(list)
+list.pop(2)
+print(list)
+list.append(False)
+print(list)
+object = 'Jane'
+list.insert(2,object)
+print(list)
+object += 'Jane'
+list.remove(True)
+print(list)
+list.append(object)
+count = list.count('Jane')
+list.reverse()
+index = list.index('Jane')
+copy_list = list.copy()
+list.extend(copy_list)
+copy_list.extend('two')
+print(list)
+print(index)
+print(copy_list)
